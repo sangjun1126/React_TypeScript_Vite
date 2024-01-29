@@ -1,14 +1,9 @@
-import MyButton from "./MyButton";
+import React from 'react';
+import Profile from './MyButton';
+import './index.css'
 
 function App() {
-  return (
-    <div>
-      <h1>vite react 만들기 성공!</h1>
-      <MyButton />
-      <MyButton />
-      <MyButton />
-    </div>
-  )
+    return <Profile />;
 }
 
 export default App;
