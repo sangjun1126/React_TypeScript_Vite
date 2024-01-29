@@ -1,30 +1,13 @@
-# React + TypeScript + Vite
+### 1 개념 알아보기
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- SWC - 속도가 빨라서 추천
+- 번들러 - 모듈식 코드를 작성하고 이를 묶음
+- CRA 빌드 - 추천하지 않아요
+- 미니파이 - 코드를 압축하는 방식 - 용량이 줄음
+- text runner - 리액트와 상관없이 별도로 알아야 하는 부분입니다.
+- root - 리액트 트리가 시작되는 곳이기에 루트라고 부릅니다. (루트가 있어야 루트안에 리액트 파일이 들어갈 수 있게 됩니다.)
+- 루트를 여러개 만들고 리액트를 여러개 만들기 - 비효율적입니다. 근데 가능은 함
+- 스택블리츠로 코드 연습하는 것도 좋아요
+- Run the JSX preprocessor == 실무에서 개념을 필요로 할 경우 학습을 추천 (초반에는 권장하지 않아요)
+- 리액트 컴포넌트는 대문자, html은 소문자로 구분하여 작성해주세요
+- JSX 문법은 닫아주는 태그가 있어야함 (부모 요소가 하나는 있어줘야 합니다.)

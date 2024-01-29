@@ -8,14 +8,3 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   </React.StrictMode>,
 )
 
-ReactDOM.createRoot(document.getElementById('root-2')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
-
-ReactDOM.createRoot(document.getElementById('root-3')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
